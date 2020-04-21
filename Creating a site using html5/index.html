@@ -1,18 +1,125 @@
 <!DOCTYPE html>
 <html>
     <head>
-
     </head>
+
     <body>
-        <article>
+
+        <header>
+            <div>
+                <a class="header_logo" href="index.html">
+                    <img>
+                </a>
+                <span>
+                    Joe's Coffee Store
+                </span>
+            </div>
+        </header>
+
+        <!-- Hold a section of the site. Shouldn't contribute to layout -->
+        <section id="welcome_text">
             <header>
-                Ye
+                Welcome to Joe's Coffee Store!
             </header>
-        </article>
+            <span>Some text</span>
+        </section>
+
+        <!-- Aside holds related information -->
+        <aside id="events">
+            <header>Here's whats happening!</header>
+            <ul>
+                <li><a href="#">Some coffee news</a></li>
+                <li><a href="#">Some coffee news</a></li>
+                <li><a href="#">Some coffee news</a></li>
+            </ul>
+        </aside>
+
+        <section id="bestsellers">
+            <header>Bestselllers @ Joe's Coffee Store</header>
+            
+            <section class="coffee_bestsellers">
+                <header>
+                    Coffees
+                </header>
+
+                <!-- Items are mocked as articles of content -->
+                <article class="product_article">
+                    <figure>
+                        <img>
+                    </figure>
+                    <header>
+                        <span>Coffee 1</span>
+                    </header>
+                    <p>$10</p>
+                    <div>Add to Cart</div>
+                </article>
+                <article class="product_article">
+                    <figure>
+                        <img>
+                    </figure>
+                    <header>
+                        <span>Coffee 2</span>
+                    </header>
+                    <p>$10</p>
+                    <div>Add to Cart</div>
+                </article>
+                <article class="product_article">
+                    <figure>
+                        <img>
+                    </figure>
+                    <header>
+                        <span>Coffee 3</span>
+                    </header>
+                    <p>$10</p>
+                    <div>Add to Cart</div>
+                </article>
+
+            </section>
+
+            <section class="accesssory_bestsellers">
+                <header>
+                    Accessories
+                </header>
+
+                <article class="product_article">
+                    <figure>
+                        <img>
+                    </figure>
+                    <header>
+                        <span>Brush 1</span>
+                    </header>
+                    <p>$5</p>
+                    <div>Add to Cart</div>
+                </article>
+                <article class="product_article">
+                    <figure>
+                        <img>
+                    </figure>
+                    <header>
+                        <span>Brush 2</span>
+                    </header>
+                    <p>$5</p>
+                    <div>Add to Cart</div>
+                </article>
+                <article class="product_article">
+                    <figure>
+                        <img>
+                    </figure>
+                    <header>
+                        <span>Brush 3</span>
+                    </header>
+                    <p>$5</p>
+                    <div>Add to Cart</div>
+                </article>
+            </section>
+
+        </section>
 
         <footer>
-            <p>Something: ye</p>
-            <p>Something: ye</p>
+            <p>Our address is <address>1054 Toronto Drive, Toronto</address></p>
+
+            <p>This page was created at <time>12:10:11.788</time></p>
         </footer>
+
     </body>
 </html>

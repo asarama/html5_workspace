@@ -10,8 +10,8 @@ During the switch from html4 to 5 there were multiple tags added.
 - section (semantic) : Separates content not styling
 - address (semantic) : Address information
 - figure (semantic) : Hold image and caption regarding image referenced in content
-- summery
-- detail
+- detail : Holds expandable section where only summery is shown until expansion
+  - summery
 ## Inline
 - mark : used to highlight content
 - meter : used to represent a value within a range. Usually for fractional values.
